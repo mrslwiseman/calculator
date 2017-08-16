@@ -1,0 +1,72 @@
+.tgl {
+	display: none;
+
+	// add default box-sizing for this scope
+	&,
+  &:after,
+  &:before,
+	& *,
+  & *:after,
+  & *:before,
+	& + .tgl-btn {
+		box-sizing: border-box;
+		&::selection {
+			background: none;
+		}
+	}
+
+	+ .tgl-btn {
+		outline: 0;
+		display: block;
+		width: 50px;
+		height: 25px;
+		position: relative;
+		cursor: pointer;
+    user-select: none;
+		&:after,
+    &:before {
+
+      background: #283137;
+      border: 2px solid #FFFFFF;
+      box-shadow: 0 4px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 3px #000000;
+			position: absolute;
+      bottom: -2px;
+			display: block;
+			content: "";
+			width: 27px;
+			height: 27px;
+		}
+
+		&:after {
+			left: 0;
+		}
+
+		&:before {
+			display: none;
+		}
+	}
+
+	&:checked + .tgl-btn:after {
+		left: 50%;
+	}
+}
+
+// themes
+.tgl-light {
+	+ .tgl-btn {
+    /* Rectangle 5: */
+background-image: linear-gradient(-180deg, #8A7A4F 0%, #B4A481 100%);
+box-shadow: 0 -1px 1px 0 #60676B, 0 1px 1px 1px rgba(16,21,25,0.18), inset 0 1px 3px 0 rgba(0,0,0,0.50);
+border-radius: 9px;
+		transition: all .4s ease;
+		&:after {
+
+			border-radius: 50%;
+			transition: all .2s ease;
+		}
+	}
+
+	&:checked + .tgl-btn {
+
+	}
+}

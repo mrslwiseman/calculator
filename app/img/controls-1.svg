@@ -1,0 +1,24 @@
+
+<svg width="66px" height="62px" viewBox="0 0 66 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#283137" offset="20.7868304%"></stop>
+            <stop stop-color="#3B464D" offset="100%"></stop>
+        </linearGradient>
+        <path d="M56.1848947,9.69603085 L8.69603085,53.792833" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="A-Copy" font-family="Arial-BoldMT, Arial" font-size="36" font-weight="bold" fill="#060606">
+            <tspan x="0.882070933" y="26">A</tspan>
+        </text>
+        <text id="M-Copy-2" font-family="Arial-BoldMT, Arial" font-size="36" font-weight="bold" fill="#060606">
+            <tspan x="38.8869537" y="62">M</tspan>
+        </text>
+        <g id="Line-Copy-4">
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <path stroke="#0E1113" stroke-width="3" d="M55.1642181,8.59684062 L57.2055714,10.7952211 L9.7167075,54.8920233 L7.6753542,52.6936428 L55.1642181,8.59684062 Z"></path>
+        </g>
+    </g>
+</svg>

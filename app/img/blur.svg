@@ -1,0 +1,17 @@
+
+<svg width="312px" height="48px" viewBox="0 0 312 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.5%" y="-19.7%" width="104.9%" height="219.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="2.46651786" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-11.000000, -9.000000)" fill="#EBBF9E">
+            <g id="Group">
+                <path d="M318.117759,52.5 C318.369426,50.8701506 318.5,49.2003239 318.5,47.5 L318.5,47.5 C318.5,29.5507456 303.949254,15 286,15 L286,15 L50,15 L50,15 C32.0507456,15 17.5,29.5507456 17.5,47.5 L17.5,47.5 L17.5,47.5 C17.5,49.2003239 17.6305737,50.8701506 17.8822409,52.5 C20.2872668,36.9245497 33.7510695,25 50,25 L50,25 L286,25 L286,25 C302.248931,25 315.712733,36.9245497 318.117759,52.5 Z" id="Combined-Shape" filter="url(#filter-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

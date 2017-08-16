@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javascript Calculator</title>
+
+    <link rel='stylesheet' href='css/main.css'>
+</head>
+<body>
+    <main>
+
+      <div id="container">
+        <div id="head">
+          <div id="logo">electronic 101</div>
+        </div>
+        <div id="display">
+          <div id="display-strip">
+          <div id="result">0</div>
+          <div id="log">0</div>
+        </div>
+        </div>
+        <div id="controls">
+          <div id="control1">
+            <input id="cb1" class="tgl tgl-light" type="checkbox">
+            <label class="tgl-btn" for="cb1"></label>
+          </div>
+          <div id="control2">
+            <button id="invert" value="--"></button>
+          </div>
+        </div>
+        <div id="keypad">
+          <div id="sub-operators">
+            <button class="suboperator" >√</button>
+            <button class="suboperator" value="%">%</button>
+            <button class="clear">CE</button>
+            <button class="clear" value="clear">C</button>
+          </div>
+          <div id="digits">
+            <button id="equals" class="operator" value="=">=</button>
+            <button class="digit" id="point" value=".">.</button>
+            <button class="digit" id="zero" value="0">0</button>
+            <button class="digit" value="1">1</button>
+            <button class="digit" value="2">2</button>
+            <button class="digit" value="3">3</button>
+            <button class="digit" value="4">4</button>
+            <button class="digit" value="5">5</button>
+            <button class="digit" value="6">6</button>
+            <button class="digit" value="7">7</button>
+            <button class="digit" value="8">8</button>
+            <button class="digit" value="9">9</button>
+          </div>
+          <div id="operators">
+            <button class="operator" value="/">÷</button>
+            <button class="operator" value="*">x</button>
+            <button class="operator" value="-">-</button>
+            <button class="operator" value="+">+</button>
+
+          </div>
+        </div> <!-- /keypad -->
+      </div><!-- /container -->
+      <div id="blurb">Designed and coded by Matt Wiseman.</div>
+    </main> <!-- /main -->
+    <script type="text/javascript" src="./js/ui.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* ------------------------ */
+/* ------------------------ */
+#sub-operators,
+#operators {
+  flex-direction: column; }
+
+#digits {
+  flex-wrap: wrap-reverse; }
+  #digits button {
+    flex-basis: 1 30%; }
+  #digits #equals {
+    order: -1; }
+  #digits #point {
+    order: -2; }
+  #digits #zero {
+    order: -3; }
+
+button.operator {
+  background-image: linear-gradient(-180deg, #8B7E5A 0%, #B4A481 100%);
+  border: 1px solid #0E1113;
+  border: 1px solid #CCC4AC;
+  box-shadow: 0 -1px 2px 0 #60676B, 0 2px 3px 1px rgba(16, 21, 25, 0.8); }
+
+button.digit {
+  background-image: linear-gradient(-180deg, #283137 21%, #3B464D 100%);
+  border: 1px solid #0E1113;
+  border: 1px solid #43515B;
+  box-shadow: 0 -1px 2px 0 #60676B, 0 2px 3px 1px rgba(16, 21, 25, 0.8);
+  color: white; }
+
+button.clear {
+  background-image: linear-gradient(-180deg, #AB4900 15%, #CC6A23 98%);
+  border: 1px solid #D06E28;
+  border: 1px solid #0E1113;
+  box-shadow: 0 -1px 2px 0 #60676B, 0 2px 3px 1px rgba(16, 21, 25, 0.8); }
+
+button.suboperator {
+  background-image: linear-gradient(-180deg, #C99751 15%, #FFC77C 98%);
+  border: 1px solid #FFC77E;
+  border: 1px solid #0E1113;
+  box-shadow: 0 -1px 2px 0 #60676B, 0 2px 3px 1px rgba(16, 21, 25, 0.8); }
+
+button.suboperator,
+button.clear,
+button.operator,
+button.digit {
+  font-size: 18px;
+  letter-spacing: 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+
+button.suboperator,
+button.clear,
+button.operator {
+  color: #060606; }
+
+button.digits {
+  color: white; }
+
+button {
+  cursor: pointer; }
+  button:active {
+    /* Oval 3 Copy 10: */
+    box-shadow: 0 2px 3px 1px rgba(16, 21, 25, 0.8); }
